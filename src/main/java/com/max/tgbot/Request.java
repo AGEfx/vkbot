@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class Request {
     private static final String query =
-            "https://api.vk.com/method/messages.getHistory?peer_id=2000000132&count=1&v=5.52&access_token=14fa96c614cc53d4b1f909738ccb67021226309678c48694dd1d2826d4bed818c48542f7aec605483f953";
+            "https://api.vk.com/method/messages.getHistory?peer_id={id}&count=1&v=5.52&access_token={token}";
     private String fileName = "file.json";
 
     private HttpURLConnection connection = null;
